@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio E-Commerce</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    *,html{
+      scroll-behavior: smooth;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    .header-image {
+      width: 100%;
+      height: auto;
+      max-height: auto; /* Tinggi gambar maksimum setengah dari tinggi layar */
+      object-fit: cover;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1; /* Menempatkan teks di atas gambar */
+      background-color: white; /* Memberikan latar belakang putih */
+      padding: 20px;
+    }
+
+    .about-text{
+        margin-top: 20px;
+    }
+
+    /* Styling untuk membuat gambar memiliki lebar dan tinggi yang sama */
+    .card-img-top {
+      width: 100%;
+      height: 50vh;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger  fixed-top">
+    <a class="navbar-brand" href="#">Parfum Laundry</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Product">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+   <section id="Home">
+  <img src="WhatsApp Image 2024-04-13 at 20.36.07_c25e3ae2.jpg" alt="Header Image" class="header-image"> <!-- Tinggi gambar disesuaikan -->
+
+  <div class="content container mt-5 text-center">
+    <h2 class="text-danger">Welcome to parfum laundry karakter</h2>
+    <p>By Entin Sutinah</p>
+  </div>
+</section>
+
+<section id="About">
+  <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="text-center">About Us</h2>
+            <p class="about-text">Di Parfum Laundry, kami berkomitmen untuk memberikan layanan terbaik kepada pelanggan kami. Kami percaya bahwa mencuci adalah sebuah kebutuhan yang harus dihadirkan dengan kualitas yang terbaik. Dengan pengalaman bertahun-tahun dalam industri laundry, kami telah memperoleh pemahaman mendalam tentang kebutuhan dan harapan pelanggan kami. Kami bangga menyediakan layanan laundry yang berkualitas tinggi dengan harga yang terjangkau.</p>
+        </div>
+        <div class="col-md-6">
+            <h2 class="text-center">Our Vision</h2>
+            <p class="about-text">Visi kami di Parfum Laundry adalah menjadi pemimpin dalam industri laundry dengan memberikan layanan terbaik, inovasi terbaru, dan kepuasan pelanggan yang tinggi. Kami berusaha untuk terus meningkatkan kualitas layanan kami, mengikuti perkembangan teknologi terbaru, dan memberikan pengalaman laundry yang nyaman dan menyenangkan bagi setiap pelanggan kami. Dengan fokus pada kepuasan pelanggan dan integritas bisnis, kami bertekad untuk mencapai keunggulan dalam setiap aspek operasional kami.</p>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section id="Product">
+  <div class="container mt-5">
+    <h2 class="text-center">Our Products</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="WhatsApp Image 2024-04-13 at 20.35.58_2f9335b6.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Vannila Cookies</h5>
+            <p class="card-text">Aromanya Manis Khas cake Vanilla Yang Lembut Segar dan sedikit manis</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="WhatsApp Image 2024-04-13 at 20.35.59_6d317456.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Lux Wash</h5>
+            <p class="card-text">Wanginya fresh dan memberikan kesan fruity yang khas karena aroma dari bibit</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="WhatsApp Image 2024-04-13 at 20.36.04_60dcdaa2.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Jasmine</h5>
+            <p class="card-text">Aromanya khas bunga melati yang sangat menyegarkan dan lembut</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="WhatsApp Image 2024-04-13 at 20.36.07_b6f21a3a.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Romantic Blossom</h5>
+            <p class="card-text">Kini Kami hadirkan Produk Pewangi laundry Terbaik, Wangi Tahan Lama, Solusi Untuk Rumah Tangga, Yang Menginginkan pakaian seluruh keluarga dalam Kondisi Wangi Sepanjang hari.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="WhatsApp Image 2024-04-13 at 20.36.06_01d02c4c.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Karpet Rose Arabia</h5>
+            <p class="card-text">Solusi Untuk
+              Rumah Tangga, Musholla dan Masjid Yang Menginginkan Karpetnya Dalam Kondisi
+              Wangi Sepanjang hari. Ditambah dengan harum karpet masjid nabawi</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="WhatsApp Image 2024-04-13 at 20.36.08_85e76bb6.jpg" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Rose Majidil Aqsa</h5>
+            <p class="card-text">Rumah Tangga, Musholla dan Masjid Yang Menginginkan Karpetnya Dalam Kondisi
+              Wangi Sepanjang hari. Ditambah dengan harum karpet masjidil aqsa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>\
+
+<section id="Contact">
+  <div class="container mt-5">
+    <h2 class="text-center">Contact Us</h2>
+    <p class="text-center">Anda tertarik? Segera hubungi kontak saya disini:</p>
+    <div class="text-center mb-4">
+      <!-- Font Awesome icons for social media -->
+      <a href="https://www.instagram.com/tinzjokam/" class="mr-3 text-danger"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.tiktok.com/@entin.sutinah" class="mr-3 text-danger"><i class="fab fa-tiktok fa-2x"></i></a>
+      <a href="mailto:esutinah134@gmail.com" class="text-danger"><i class="fas fa-envelope fa-2x"></i></a>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="bg-danger text-white text-center py-3 mt-auto">
+    &copy; 2024 E-Commerce. All Rights Reserved.
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
